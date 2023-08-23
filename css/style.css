@@ -1,0 +1,1790 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/roboto-v30-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-100 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/exo-v20-latin-100.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-100.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-100.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-100.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-100.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-100.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-100italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 100;
+    src: url('../fonts/exo-v20-latin-100italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-100italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-100italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-100italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-100italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-100italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-200 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/exo-v20-latin-200.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-200.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-200.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-200.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-200.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-200.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-200italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 200;
+    src: url('../fonts/exo-v20-latin-200italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-200italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-200italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-200italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-200italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-200italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/exo-v20-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-300.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-300italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/exo-v20-latin-300italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-300italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-300italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-300italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-300italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-300italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/exo-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-regular.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/exo-v20-latin-italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/exo-v20-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-500.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-500italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/exo-v20-latin-500italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-500italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-500italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-500italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-500italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-500italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/exo-v20-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-600.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-600italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/exo-v20-latin-600italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-600italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-600italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-600italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-600italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-600italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/exo-v20-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-700.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-700italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/exo-v20-latin-700italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-700italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-700italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-700italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-700italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-700italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/exo-v20-latin-800.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-800.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-800.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-800.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-800.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-800.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-800italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../fonts/exo-v20-latin-800italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-800italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-800italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-800italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-800italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-800italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-900 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/exo-v20-latin-900.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-900.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-900.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-900.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-900.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-900.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* exo-900italic - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts/exo-v20-latin-900italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/exo-v20-latin-900italic.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/exo-v20-latin-900italic.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/exo-v20-latin-900italic.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/exo-v20-latin-900italic.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/exo-v20-latin-900italic.svg#Exo') format('svg');
+    /* Legacy iOS */
+}
+
+/* ================================== Default CSS ================================== */
+
+body {
+    font-family: 'Exo';
+}
+html{
+
+    scroll-behavior: smooth;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Exo';
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --teal: #58fba8;
+}
+
+/* ========== Navigation Menu css ========== */
+.head {
+    padding: 20px 50px;
+}
+
+.logo img {
+    margin-right: 16px;
+    padding: 5px 0;
+}
+
+.bar li {
+    text-transform: uppercase;
+    margin-right: 13px;
+}
+
+.bar li a {
+    color: var(--black);
+    font-size: 13px !important;
+    font-weight: 700;
+    margin-right: 13px;
+}
+
+.acv {
+    position: relative;
+}
+
+.acv::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    background: #384656;
+    opacity: 1;
+    width: 100%;
+    visibility: visible;
+    right: auto;
+    left: 0;
+}
+
+.rele {
+    position: relative;
+    overflow: hidden;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    height: 2px;
+    background: #384656;
+    opacity: 1;
+    width: 80%;
+    visibility: visible;
+    right: auto;
+    left: 0;
+    transform: translateX(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.bar li:hover .line::before {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.s-btn {
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+    padding: 12px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 30px;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.main_menu i {
+    font-size: 18px;
+    background-color: #EFEFEF;
+    padding: 13px 15px;
+    border-radius: 50%;
+    color: #000;
+}
+
+/* ==================== banner css =================== */
+
+.bg-img1 {
+    position: relative;
+    background-image: url(../img/banner-shape.jpg);
+    background-position: bottom right;
+    /* padding-top: 110px; */
+    padding-bottom: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-color: #f4faff;
+
+}
+
+.pdn {
+    padding-top: 30px;
+}
+
+.shape1 {
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    z-index: -1;
+    opacity: .4;
+}
+
+@keyframes movebounce {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes animationFramesOne {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+
+    40% {
+        transform: translate(141px, 72px) rotate(72deg);
+    }
+
+    60% {
+        transform: translate(83px, 122px) rotate(108deg);
+    }
+
+    80% {
+        transform: translate(141px, 72px) rotate(72deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+}
+
+@keyframes rotate3d {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotatemece {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.img1 img {
+    animation: movebounce 5s linear infinite alternate;
+}
+
+.shape1 img {
+    animation: movebounce 5s linear infinite alternate;
+}
+
+.shape3 img {
+    animation: movebounce 10s linear infinite alternate;
+}
+
+.shape4 img {
+    animation: animationFramesOne 20s infinite linear alternate;
+}
+
+.shape5 img {
+    animation: movebounce 5s linear infinite alternate;
+}
+
+.shape6 img {
+    animation: movebounce 8s linear infinite alternate;
+}
+
+.shape7 img {
+    animation: rotate3d 4s linear infinite;
+}
+
+.shape8 img {
+    animation: rotatemece 5s linear infinite alternate;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+}
+
+.shape2 {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    z-index: -1;
+}
+
+.shape3 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.shape4 {
+    position: absolute;
+    bottom: 15%;
+    left: 45%;
+    z-index: -1;
+}
+
+.shape5 {
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.shape6 {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    z-index: -1;
+    opacity: .5;
+}
+
+.shape7 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2%;
+    z-index: -1;
+    opacity: .3;
+}
+
+.shape8 {
+    position: absolute;
+    bottom: 150px;
+    left: 25%;
+    z-index: -1;
+}
+
+.dot1 {
+    position: absolute;
+    right: 13%;
+    top: 20%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.dot2 {
+    position: absolute;
+    right: 20%;
+    top: 15%;
+    z-index: -1;
+}
+
+.dot3 {
+    position: absolute;
+    right: 20%;
+    top: 40%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.dot4 {
+    position: absolute;
+    right: 12%;
+    top: 45%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.dot5 {
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    z-index: -1;
+}
+
+.dot6 {
+    position: absolute;
+    right: 15%;
+    top: 60%;
+    z-index: -1;
+}
+
+.dot1 img {
+    animation: animationFramesOne 25s infinite linear;
+}
+
+@keyframes animationFramesOne {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+
+    40% {
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+
+    60% {
+        transform: translate(83px, 122px) rotate(108deg);
+    }
+
+    80% {
+        transform: translate(-40px, 72px) rotate(144deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+.dot2 img {
+    animation: animationFramesTwo 25s infinite linear;
+}
+
+@keyframes animationFramesTwo {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(-73px, 1px) rotate(-36deg);
+    }
+
+    40% {
+        transform: translate(-141px, -72px) rotate(-72deg);
+    }
+
+    60% {
+        transform: translate(-83px, -122px) rotate(-108deg);
+    }
+
+    80% {
+        transform: translate(40px, -72px) rotate(-144deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+.dot3 img {
+    animation: animationFramesTwo 25s infinite linear;
+}
+
+.dot4 img {
+    animation: animationFramesOne 35s infinite linear;
+}
+
+.dot5 img {
+    animation: rotate3d 4s linear infinite;
+}
+
+.dot6 img {
+    animation: rotate3d 4s linear infinite;
+}
+
+.text1,
+.b-img {
+    width: 50%;
+}
+
+.text1 span {
+    font-size: 18px;
+    display: block;
+    color: #4c6c90;
+}
+
+.text1 h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-bottom: 18px;
+    line-height: 1.1;
+    color: #384656
+}
+
+.text1 p {
+    line-height: 1.8;
+    font-size: 14px;
+    font-family: 'roboto';
+    color: #4c6c90;
+    margin-bottom: 35px;
+}
+
+.btn1 {
+    position: relative;
+}
+
+.btn-clr::before {
+    content: '';
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6f87a1;
+    width: 30px;
+    height: 1px;
+}
+
+.btn1 {
+    position: relative;
+    padding: 10px 60px 10px 25px;
+}
+
+.btn-clr::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+}
+
+.text1 a {
+    transition: .5s
+}
+
+.text1 a:hover {
+    background-color: #384656;
+    color: #fff;
+}
+
+/* ========================== about css ===================== */
+.abt {
+    padding-top: 30px;
+}
+
+.about-left,
+.about-right {
+    width: 50%;
+}
+
+.about-left img {
+    display: block;
+}
+
+.about-right h1 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #384656;
+}
+
+.about-right p {
+    color: #4c6c90;
+    line-height: 1.8;
+    font-size: 14px;
+    font-family: 'roboto';
+}
+
+.ab {
+    flex-wrap: wrap;
+}
+
+.ab i {
+    margin-right: 5px;
+}
+
+.ab li {
+    max-width: 50%;
+    flex: 0 0 50%;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #384656;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p {
+    padding-left: 0 !important;
+}
+
+/* ====================== featires css ====================== */
+
+
+.f-col {
+    width: 16.66%;
+    text-align: center;
+}
+
+.featires {
+    background-color: #384656;
+    padding: 90px 0;
+}
+
+.s-f {
+    padding: 0 15px;
+}
+
+.s-f i {
+    font-size: 50px;
+    color: var(--teal);
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.s-f h1 {
+    margin-top: 3px;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--white);
+
+}
+
+/* ======================== desing css ==================== */
+.titel {
+    text-align: center;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 130px;
+}
+
+.titel h1 {
+    font-size: 30px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #384656;
+    /* z-index: 3; */
+}
+
+.titel p {
+    line-height: 1.8;
+    font-size: 14px;
+    color: #4c6c90;
+    margin-bottom: 15px;
+    font-family: 'roboto';
+}
+
+.dsn {
+    overflow: hidden;
+    text-align: center;
+}
+
+.d-img img {
+    z-index: -2;
+    text-align: center;
+    /* position: relative; */
+    margin-top: -200px;
+    z-index: -2;
+    padding-top: 0;
+}
+
+/* ========================= design slider ======================== */
+
+.d-slider h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    /* color: #4c6c90; */
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    background-color: rgba(116, 21, 21, 0.521);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(169, 169, 169, 0.316);
+}
+
+.icn {
+    font-size: 90px;
+    color: var(--white);
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    background-color: rgba(116, 21, 21, 0.521);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(169, 169, 169, 0.316);
+}
+
+/* ========================  Specifications css ===================== */
+
+
+.black-img {
+    background-image: url(../img/black-bg.jpg);
+}
+
+.spe-title {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.spe-title h2 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.spe {
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+.s-p h4 {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.s-p span {
+    color: #f8f8f8;
+    margin-top: 6px;
+    display: block;
+    font-family: 'roboto';
+    font-size: 14px;
+}
+
+.m-rt {
+    margin-right: 20px;
+    margin-top: 45px;
+}
+
+.mt {
+    margin-top: 45px;
+}
+
+.spe-img img {
+    margin: 0 50px;
+}
+
+.m-lt {
+    margin-left: 25px;
+    margin-top: 45px;
+}
+
+
+/* ===================== review css ======================= */
+
+.r-title {
+    text-align: center;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.r-title h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.r-title p {
+    line-height: 1.8;
+    font-family: 'roboto';
+    color: #4c6c90;
+    font-size: 14px;
+}
+
+.user,
+.user1 img {
+    padding-left: 45px;
+}
+
+.user {
+    position: relative;
+}
+
+.user h3 {
+    position: absolute;
+    left: -23%;
+    color: #384656;
+    transform: rotate(90deg);
+    top: 30%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user1 {
+    position: relative;
+}
+
+.user1 h3 {
+    position: absolute;
+    left: -34%;
+    color: #384656;
+    transform: rotate(90deg);
+    top: 40%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user2 {
+    position: relative;
+    margin-left: 80px;
+    margin-top: -35px;
+}
+
+.user2 h3 {
+    position: absolute;
+    left: -37%;
+    color: #384656;
+    transform: rotate(90deg);
+    top: 40%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user3 {
+    position: relative;
+    margin-left: 80px;
+    margin-top: -35px;
+}
+
+.user3 img {
+    margin-top: 35px;
+}
+
+.user3 h3 {
+    position: absolute;
+    left: -49%;
+    color: #384656;
+    transform: rotate(90deg);
+    top: 40%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn44 {
+    position: absolute;
+    padding: 10px 60px 10px 25px;
+    height: 50px;
+    line-height: 2;
+    bottom: 7%;
+    left: -38px;
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+}
+
+.btn44::before {
+    content: '';
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6f87a1;
+    width: 30px;
+    height: 1px;
+}
+
+.btn44:hover {
+    color: var(--white);
+    background: #384656;
+}
+
+.btn33 {
+    position: absolute;
+    padding: 10px 60px 10px 25px;
+    height: 50px;
+    line-height: 2;
+    bottom: 7%;
+    left: -38px;
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+}
+
+.btn33::before {
+    content: '';
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6f87a1;
+    width: 30px;
+    height: 1px;
+}
+
+.btn33:hover {
+    color: var(--white);
+    background: #384656;
+}
+
+
+.btn23 {
+    position: absolute;
+    padding: 10px 60px 10px 25px;
+    height: 50px;
+    line-height: 2;
+    bottom: 7%;
+    left: -3px;
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+}
+
+.btn23::before {
+    content: '';
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6f87a1;
+    width: 30px;
+    height: 1px;
+}
+
+.btn23:hover {
+    color: var(--white);
+    background: #384656;
+}
+
+.btn22 {
+    position: absolute;
+    padding: 10px 60px 10px 25px;
+    height: 50px;
+    line-height: 2;
+    bottom: 7%;
+    left: -3px;
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+}
+
+.btn22::before {
+    content: '';
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6f87a1;
+    width: 30px;
+    height: 1px;
+}
+
+.btn22:hover {
+    color: var(--white);
+    background: #384656;
+}
+
+.btn2 {
+    position: absolute;
+    padding: 10px 60px 10px 25px;
+    height: 50px;
+    line-height: 2;
+    bottom: 7%;
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+}
+
+.btn2::before {
+    content: '';
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6f87a1;
+    width: 30px;
+    height: 1px;
+}
+
+.btn2:hover {
+    color: var(--white);
+    background: #384656;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+/* ====================== qsn css ==================== */
+.clr {
+    background-color: #e9f3fc;
+}
+
+.qsn-head {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.qsn-head h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.qsn-head p {
+    font-size: 14px;
+    color: #4c6c90;
+    line-height: 1.8;
+    font-family: 'roboto';
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+.qsn {
+    width: 100%;
+}
+
+.qsn li {
+    margin-bottom: 35px;
+}
+
+.qsn li a {
+    padding: 12px 35px 12px 15px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    width: 100%;
+}
+
+.right img {
+    width: 100%;
+}
+
+/*========================== review slder =================== */
+.main {
+    justify-content: center;
+    display: flex;
+}
+
+.main img {
+    height: 70px;
+    margin-bottom: 20px;
+    width: 70px !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.star {
+    margin-left: 135px;
+    color: gold;
+}
+
+.r-text p {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 15px;
+    color: #4c6c90;
+    font-family: 'roboto';
+}
+
+.client {
+    margin-top: 20px;
+}
+
+.client h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.client span {
+    font-size: 13px;
+    color: #4c6c90;
+}
+
+.p-10 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* =================== Business Partner css =================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== footer css ========================= */
+.f-clr {
+    background-color: #384656;
+}
+
+.sup {
+    padding: 0 12px;
+    width: 16.666%;
+}
+
+.s-footer h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: var(--white);
+}
+
+.s-list {
+    padding-left: 0;
+}
+
+.s-list li {
+    font-size: 13.5px;
+    margin-bottom: 12px;
+    transition: .3s;
+}
+
+.s-list li:hover {
+    transform: translateX(10px);
+}
+
+.s-list a:hover {
+    color: var(--teal);
+}
+
+.s-list li a {
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.a-img {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.nesw {
+    padding: 0 15px;
+    width: 33.33%;
+}
+
+.fullimg {
+    background-image: url(../img/asset\ 40.jpeg);
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-title a {
+    color: #fff;
+    line-height: 1.8;
+    transition: .3s;
+}
+
+.img-title a:hover {
+    color: var(--teal);
+}
+
+.img-title p {
+    margin-top: 3px;
+    font-size: 13px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.fullimg1 {
+    background-image: url(../img/asset\ 41.jpeg);
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.nesw-in span {
+    color: var(--white);
+    font-size: 15px;
+    display: block;
+}
+
+.nesw-in form input {
+    background-color: #384F69;
+    border: none;
+    padding-left: 15px;
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.nesw-in form input:focus {
+    outline: none;
+}
+
+.nesw-in form {
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.nesw-in form input::placeholder {
+    color: var(--white);
+    font-size: 14px;
+    font-family: 'exo';
+    position: relative;
+}
+
+.btn5 {
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+    padding: 12px 25px;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    right: 207px;
+    transition: .4s;
+}
+
+.btn5:hover {
+    background: var(--white);
+}
+
+.nesw-in p {
+    color: var(--white);
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+.social li i {
+    background-color: #000;
+    height: 40px;
+    text-align: center;
+    line-height: 2.3;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 3px;
+    color: var(--white);
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.social li i:hover {
+    background: linear-gradient(to bottom, #00e4ff, #00eef2, #00f6dc, #15fbbc, #69ff97);
+    color: #000;
+}
+
+/* ======================== copyright css ====================== */
+.copy {
+    margin-top: 90px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid #3f546c;
+}
+
+.c p {
+    color: var(--white);
+}
+
+.c p a {
+    color: var(--white);
+}
+
+.c a {
+    transition: .3s;
+}
+
+.c a:hover {
+    color: var(--teal);
+}
+
+.condition li a {
+    color: var(--white);
+}
+
+.condition ul li {
+    margin-right: 25px;
+    position: relative;
+}
+
+.condition ul .i::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: -13px;
+    width: 1px;
+    height: 12px;
+    background: #ffffff;
+}
+
+.condition ul .p-15 {
+    margin-right: 0px;
+}
+
+.condition a {
+    transition: .3s;
+}
+
+.condition a:hover {
+    color: var(--teal);
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: rgba(255,255,255,0.6)!important;
+    backdrop-filter: blur(5px);
+    animation: slide 1s ease-in-out;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+#scroll_top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+#loader{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* .pre_loader{
+    animation: rotate 1s linear infinite;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #000000;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+} */
+

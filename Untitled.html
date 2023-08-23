@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide {
+            display: none;
+           
+        }
+
+        .myDIV:hover+.hide {
+            display: block;
+            color: red;
+        }
+
+        .myDIV {
+            position: relative !important;
+        }
+
+        .hide img {
+            position: absolute;
+            left: 13%;
+            top: 0;
+        }
+
+        .btn00 {
+            background-color: #fff;
+            padding: 15px 30px;
+            color: blue;
+            border: 2px solid blue;
+            border-radius: 30px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="myDIV">
+        <a href="#" class="btn00">
+            Download App</a>
+    </div>
+    <div class="hide">
+        <img src="https://wordpress-590452-3688085.cloudwaysapps.com/wp-content/uploads/2023/08/qrcode.webp" alt="">
+    </div>
+
+</body>
+
+</html>
